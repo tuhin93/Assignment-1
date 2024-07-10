@@ -1,19 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    font-family: Azeret Mono;;
+*
+/* common styles */
+
+.common-font{
+    font-family: Azeret Mono;
 }
-header{
-    height: 60px;
+
+.common-button button{
+padding: 10px 15px;
+color: rgb(11, 14, 22);
+}
+nav{
+
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-#name{
- 
-}
-#download{
+    justify-content: space-between;
+    margin: 50px 100px;
     
 }
+.name{
+ font-weight: 100;
+ color: rgb(13, 19, 33);
+}
+
 .hero{
     background-image: url('../assets/Hero-bg.png');
 }
