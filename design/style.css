@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: Azeret Mono;;
+}
+header{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#name{
+ 
+}
+#download{
+    
+}
+.hero{
+    background-image: url('../assets/Hero-bg.png');
+}
