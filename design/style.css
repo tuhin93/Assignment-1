@@ -92,7 +92,8 @@ nav {
     align-items: flex-start;
 }
 
-.heading h2, p {
+.heading h2,
+p {
     text-align: center;
 }
 
@@ -152,18 +153,19 @@ nav {
     border-radius: 16px;
     background: linear-gradient(180deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
+
 .text-second .text2 {
-width: 560px;
+    width: 560px;
 }
 
-.text-second .text2 button{
+.text-second .text2 button {
     font-family: Azeret Mono;
     width: 170px;
     height: 48px;
     color: rgb(13, 19, 33);
 }
 
-.text-third{
+.text-third {
     display: flex;
     justify-content: space-around;
     border-radius: 16px;
@@ -171,19 +173,45 @@ width: 560px;
 
 }
 
-.text3{
+.text3 {
     width: 550px;
     border-radius: 15px;
-  
+
 }
 
-.text3 h2, p{
+.text3 h2,
+p {
     text-align: left;
 }
 
-.text3 button{
+.text3 button {
     font-family: Azeret Mono;
     width: 170px;
     height: 48px;
     color: rgb(13, 19, 33);
+}
+
+.inspiration-text {
+    width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inspiration-text h3 {
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.inspiration-text p {
+    text-align: center;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 26px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
 }
