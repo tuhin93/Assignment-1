@@ -74,9 +74,40 @@ nav {
 
 }
 
+.heading {
+    text-align: center;
+}
+
+.image-text {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 50px;
+}
+
+.text1 {
+    width: 470px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.heading h2 {
+    text-align: center;
+}
+
+.heading p {
+    text-align: center;
+}
+
 .second-section {
     margin-top: 150px;
     background-color: rgba(13, 19, 33, 0.02);
+}
+
+.heading {
+    width: 850px;
+    margin: 50px auto;
 }
 
 .second-section h2 {
@@ -86,4 +117,37 @@ nav {
     font-weight: 100;
     line-height: 37px;
     text-align: center;
+}
+
+.second-section p {
+    /* text-align: center; */
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.image-text p {
+    text-align: left;
+}
+
+.text-first {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.picture1 {
+    margin-left: 400px;
+}
+
+.text1 {
+    margin left: 200px
+}
+
+.text1 button {
+    font-family: Azeret Mono;
+    width: 170px;
+    height: 48px;
+    color: rgb(13, 19, 33);
 }
