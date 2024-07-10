@@ -86,17 +86,13 @@ nav {
 
 .text1 {
     width: 470px;
+    margin-left: 50px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
 }
 
-.heading h2 {
-    text-align: center;
-}
-
-.heading p {
+.heading h2, p {
     text-align: center;
 }
 
@@ -116,7 +112,7 @@ nav {
     font-size: 32px;
     font-weight: 100;
     line-height: 37px;
-    text-align: center;
+
 }
 
 .second-section p {
@@ -135,17 +131,57 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
 
 .picture1 {
     margin-left: 400px;
 }
 
-.text1 {
-    margin left: 200px;
+.text1 button {
+    font-family: Azeret Mono;
+    width: 170px;
+    height: 48px;
+    color: rgb(13, 19, 33);
 }
 
-.text1 button {
+.text-second {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+.text-second .text2 {
+width: 560px;
+}
+
+.text-second .text2 button{
+    font-family: Azeret Mono;
+    width: 170px;
+    height: 48px;
+    color: rgb(13, 19, 33);
+}
+
+.text-third{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px;
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+
+}
+
+.text3{
+    width: 550px;
+    border-radius: 15px;
+  
+}
+
+.text3 h2, p{
+    text-align: left;
+}
+
+.text3 button{
     font-family: Azeret Mono;
     width: 170px;
     height: 48px;
